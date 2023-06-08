@@ -1,0 +1,43 @@
+.MainDiv{
+  
+  padding: 10px;
+  justify-content: space-around;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+.IndivualDiv{
+ 
+  padding: 20px;
+  border: 1px solid grey;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: lightgreen;
+}
+.IndivualDiv>p{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px;
+ 
+  text-decoration: rgb(244, 45, 224);
+}
+.IndivualDiv:hover{
+  cursor: pointer;
+  background-color: rgb(172, 242, 238);
+}
+.searchBarDiv{
+  display: flex;
+  justify-content: center;
+}
+.SearchBar{
+  width: 50%;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: rgb(31, 33, 31);
+  padding: 10px;
+  margin: 10px;
+  align-self: center;
+}
